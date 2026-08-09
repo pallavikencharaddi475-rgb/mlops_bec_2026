@@ -3,3 +3,4 @@
     autostage = true
 ['remote "myremote"']
     url = s3://mlops-workshop-yourname-data-pallavi/dvc-store
+    region = ap-south-2
