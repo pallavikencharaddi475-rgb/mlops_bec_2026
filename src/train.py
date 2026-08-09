@@ -208,7 +208,6 @@ def parse_args():
     parser.add_argument("--gamma",            type=float, default=0.0)
     parser.add_argument("--test_size",        type=float, default=0.2)
     parser.add_argument("--random_state",     type=int,   default=42)
-    
     parser.add_argument("--experiment_name",  default="churn_prediction")
     parser.add_argument("--tracking_uri",     default="http://localhost:5001")
     return parser.parse_args()
